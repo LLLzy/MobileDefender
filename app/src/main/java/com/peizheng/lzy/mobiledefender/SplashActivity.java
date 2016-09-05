@@ -15,7 +15,6 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView tv_version = (TextView) findViewById(R.id.tv_version);
         tv_version.setText(getVersionName());
-        Toast.makeText(SplashActivity.this, "Hello", Toast.LENGTH_SHORT).show();
 
     }
     private String getVersionName(){
